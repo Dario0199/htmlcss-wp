@@ -32,6 +32,10 @@ body{
     clear: both;
 }
 
+.heart{
+    color: red;
+}
+
 
 /* debug-box */
 .debug-box{
@@ -102,7 +106,7 @@ article{
 /* main content */
 
 .s-title{
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 
@@ -113,30 +117,20 @@ article{
 
 .title{
     width: 100%;
-    background: royalblue;
     padding-bottom: 15px;
 }
 .sidebar{
     width: 20%;
-    background: royalblue;
 }
 
 .main-content{
     width: 60%;
-    background: royalblue;
-}
-
-.txt-aside, .txt-content, .txt-title{
-    background: lightblue;
 }
 
 main{
     margin-bottom: 5px;
 }
 
-.txt-footer{
-    background: darkorchid;
-}
 
 /* sidebar */
  
@@ -159,3 +153,19 @@ main{
     background-position: center;
     border-radius: 10px;
  }
+
+ .s-img2{
+    width: 100%;
+    height: 200px;
+    background-image: url(../htmlcss-wp/img/img-2.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+/* footer */
+
+.footer-txt{
+    text-align: center;
+    margin-top: 20px;
+}
