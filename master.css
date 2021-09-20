@@ -2,11 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body{
-    font-family: 'Montserrat'
+    font-weight: 400;
+    color: gray;
 }
+
 /* utility */
 .container{
     width: 1200px;
@@ -28,14 +31,10 @@ body{
     clear: both;
 }
 
+
 /* debug-box */
 .debug-box{
-    height: 30px;
-    
-}
-
-.header{
-    background: violet
+    height: 30px;    
 }
 
 /* header */
@@ -59,12 +58,37 @@ body{
     color: gray;
 }
 
-
+.main-nav li a:hover{
+    color: black;
+}
 
 /* article */
-.article{
-    background: rgb(236, 224, 112) ;
+article{
+    width: 100%;
+  
 }
+
+.b-container{
+    width: 100%;
+    height: 500px;
+    background-image: url(../htmlcss-wp/img/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    border-radius: 10px;
+    position: relative;
+}
+
+.b-title .b-txt{
+    display: inline-block;
+    position: absolute;
+    left: 40px0;
+    bottom: 50px;
+}
+
+
+
+   
 
 /* main content */
 .sidebar, .main-content{
