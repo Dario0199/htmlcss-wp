@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat'
+}
+/* utility */
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.pad-o{
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+
+.marg-b{
+    margin-bottom: 40px;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* debug-box */
+.debug-box{
+    height: 30px;
+    
+}
+
+.header{
+    background: violet
+}
+
+/* header */
+.brand img{
+    width: 165px;
+}
+
+.brand{
+    display: inline-block;
+}
+
+.main-nav li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 12px;
+}
+
+.main-nav li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: gray;
+}
+
+
+
+/* article */
+.article{
+    background: rgb(236, 224, 112) ;
+}
+
+/* main content */
+.sidebar, .main-content{
+    float: left;
+    padding-bottom: 15px;
+}
+
+.title{
+    width: 100%;
+    background: royalblue;
+    padding-bottom: 15px;
+}
+.sidebar{
+    width: 25%;
+    background: royalblue;
+}
+
+.main-content{
+    width: 50%;
+    background: royalblue;
+}
+
+.txt-aside, .txt-content, .txt-title{
+    background: lightblue;
+}
+
+main{
+    margin-bottom: 5px;
+}
+
+.txt-footer{
+    background: darkorchid;
+}
