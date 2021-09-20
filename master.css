@@ -7,7 +7,8 @@
 
 body{
     font-weight: 400;
-    color: gray;
+    
+    
 }
 
 /* utility */
@@ -68,29 +69,43 @@ article{
   
 }
 
+.txt-container{
+    width: 500px;
+    position: absolute;
+    left: 40px;
+    bottom: 50px;
+}
+
 .b-container{
     width: 100%;
     height: 500px;
     background-image: url(../htmlcss-wp/img/banner.jpg);
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     display: inline-block;
     border-radius: 10px;
     position: relative;
+    
 }
 
+.background-b{
+    background-color: rgba(0, 0, 0, 0,5);
+}
 .b-title .b-txt{
-    display: inline-block;
-    position: absolute;
-    left: 40px0;
-    bottom: 50px;
+    color: white;
 }
 
 
 
-   
 
 /* main content */
+
+.s-title{
+    margin-bottom: 10px;
+}
+
+
 .sidebar, .main-content{
     float: left;
     padding-bottom: 15px;
@@ -102,12 +117,12 @@ article{
     padding-bottom: 15px;
 }
 .sidebar{
-    width: 25%;
+    width: 20%;
     background: royalblue;
 }
 
 .main-content{
-    width: 50%;
+    width: 60%;
     background: royalblue;
 }
 
@@ -122,3 +137,25 @@ main{
 .txt-footer{
     background: darkorchid;
 }
+
+/* sidebar */
+ 
+
+
+ .s-img1{
+     width: 100%;
+     height: 200px;
+     background-image: url(../htmlcss-wp/img/img-1.jpg);
+     background-size: cover;
+     background-position: center;
+     border-radius: 10px;
+ }
+
+ .m-img{
+    width: 100%;
+    height: 200px;
+    background-image: url(../htmlcss-wp/img/banner-2.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+ }
