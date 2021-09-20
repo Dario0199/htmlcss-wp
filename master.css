@@ -134,6 +134,13 @@ main{
 
 /* sidebar */
  
+.s-txt p{
+    color: grey;
+}
+
+.m-txt p{
+    color: grey;
+}
 
 
  .s-img1{
@@ -152,6 +159,7 @@ main{
     background-size: cover;
     background-position: center;
     border-radius: 10px;
+    
  }
 
  .s-img2{
