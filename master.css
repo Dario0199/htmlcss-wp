@@ -36,12 +36,6 @@ body{
     color: red;
 }
 
-
-/* debug-box */
-.debug-box{
-    height: 30px;    
-}
-
 /* header */
 .brand img{
     width: 165px;
@@ -78,6 +72,7 @@ article{
     position: absolute;
     left: 40px;
     bottom: 50px;
+    color: white;
 }
 
 .b-container{
@@ -93,19 +88,27 @@ article{
     
 }
 
-.background-b{
-    background-color: rgba(0, 0, 0, 0,5);
-}
-.b-title .b-txt{
-    color: white;
+.b-container::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .2);
+    border-radius: 10px;
 }
 
-
+.txt-container h2{
+    font-weight: 700;
+}
 
 
 /* main content */
 
-.s-title{
+.txt-title h1{
+    font-size: 40px;
+    font-weight: 700;
     margin-bottom: 5px;
 }
 
@@ -168,6 +171,17 @@ main{
     background-image: url(../htmlcss-wp/img/img-2.jpg);
     background-size: cover;
     background-position: center;
+    border-radius: 10px;
+}
+
+.s-content::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .2);
     border-radius: 10px;
 }
 
